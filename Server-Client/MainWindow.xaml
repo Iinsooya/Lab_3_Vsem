@@ -1,0 +1,14 @@
+﻿<Window x:Class="Server_Client.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="550" Width="600">
+    <Grid Background="#FFD5D2D2">
+        <Button Content="Start" HorizontalAlignment="Left" Height="34" Margin="34,473,0,0" VerticalAlignment="Top" Width="116" FontSize="14" FontWeight="Bold" Background="White" Click="Start_Click"/>
+        <Button Content="Stop" HorizontalAlignment="Left" Height="34" Margin="184,473,0,0" VerticalAlignment="Top" Width="116" FontSize="14" FontWeight="Bold" Background="White" Click="Stop_Click"/>
+        <ListBox x:Name="log" HorizontalAlignment="Left" Height="374" Margin="34,82,0,0" VerticalAlignment="Top" Width="516" />
+        <Label Content="Server Log:" HorizontalAlignment="Left" Height="32" Margin="34,45,0,0" VerticalAlignment="Top" Width="131" FontSize="14" FontWeight="Bold"/>
+    </Grid>
+</Window>
